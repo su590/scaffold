@@ -23,15 +23,15 @@
 import uuid
 from typing import Any
 
-from ext.feishu.card import (
+from ext.feishu.function.card import (
     CardType,
     CreateCardEntityResponseShortcut,
     create_card_entity,
     update_card_element_content,
     update_card_entity_settings,
 )
-from ext.feishu.message import ReceiveIdType, send_interactive_by_card_id
-from ext.feishu.retry import retry_feishu_api
+from ext.feishu.function.message import ReceiveIdType, send_interactive_by_card_id
+from ext.feishu.features.retry import retry_feishu_api
 
 
 class StreamingCard:

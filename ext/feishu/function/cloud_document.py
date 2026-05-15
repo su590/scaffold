@@ -13,8 +13,8 @@ from typing import Optional
 import requests
 from pydantic import BaseModel, Field
 
-from ext.feishu.header import compose_headers
-from ext.feishu.retry import retry_feishu_api
+from ext.feishu.function.header import compose_headers
+from ext.feishu.features.retry import retry_feishu_api
 
 
 def download_media(

@@ -11,7 +11,7 @@ from typing import Any
 
 import requests
 
-from ext.feishu.header import compose_headers
+from ext.feishu.function.header import compose_headers
 
 
 class MsgType(enum.Enum):

@@ -11,7 +11,7 @@ from typing import Callable, Optional, ParamSpec
 
 import requests
 
-from ext.feishu.error import RetryTooMuch
+from ext.feishu.function.error import RetryTooMuch
 
 
 def _pass():

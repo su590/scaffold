@@ -6,7 +6,7 @@
 """
 import requests
 
-from ext.feishu.message import compose_text_content, Post
+from ext.feishu.function.message import compose_text_content, Post
 
 
 def _send_message(webhook: str, content: dict, msg_type: str) -> requests.Response:
