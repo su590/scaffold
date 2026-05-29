@@ -73,6 +73,3 @@ def init_log(level: int = logging.INFO) -> None:
     _console(level)
     # 文件日志
     # _file(level)
-
-init_log()
-logger = logging.getLogger()

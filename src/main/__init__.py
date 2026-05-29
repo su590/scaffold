@@ -3,4 +3,9 @@
 @Author  : Chiang
 @Desc    : None
 """
+import logging
 
+from src.main.bootstrap.event.log import init_log
+
+init_log()
+logger = logging.getLogger()
